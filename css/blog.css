@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,300,700|Open+Sans:700|Droid+Sans+Mono');
+@font-face {
+font-family: head;
+src:url(../fonts/head.ttf);
+}
+@font-face {
+font-family:social;
+src:url(../fonts/social.otf);
+}
+@font-face {
+font-family: menu;
+src:url(../fonts/menu.ttf);
+}
+body{
+/*background-image: url(../bg1.jpg);*/
+background-attachment:  fixed;
+}
+
+#header{
+  background-color: #333;
+
+
+}
+#logo{
+
+  font-family: head;
+  font-size: 35px;
+  margin: 10px;
+  color: white;
+
+
+}
+#mainline{
+
+ font-family:Montserrat;
+font-size: 30px;
+text-align: center;
+margin-top: 50px;
+
+
+
+
+}
+#contribute{
+  background-color: transparent;
+  border:1px solid ;
+  color:aqua;
+  cursor: pointer;
+  padding: 3px 7px;;
+  border-radius: 3px;
+  border:1px solid ;
+}
+#contribute:hover{
+  background-color: transparent;
+  border:1px solid ;
+  color:aqua;
+
+
+
+}
+
+
+.menu-item{
+  font-family:Montserrat ;
+  float: right;
+  font-size:  16px;
+  font-weight: 700;
+  margin: 12px;
+  margin-top: 25px;
+  color:white;
+  font-weight: 300;
+}
+.active{
+
+color:grey;
+}
+.menu-item:hover{
+  cursor: pointer;
+  color:grey;
+}
+
+#view-menu{
+  list-style: none;
+  position: absolute;
+    background-color: #f6f6f6;
+    width: 30%;
+    z-index:2;
+  font-size:16px;
+    padding: 0px;
+
+
+    display: none;
+
+}
+.view-item{
+
+  padding: 10px 5px;
+  text-align: center;;
+}
+.view-item:hover{
+  color:white;
+  background-color: #1d1d1d;
+}
+#view-control:hover #view-menu{
+
+  display: block;
+}
+#blogposts{
+  display: flex;
+}
+.blog{
+  margin: 50px auto;
+
+  width: 26%;
+
+  background-color: #ececec;
+
+}
+.blogtext{
+font-family:Montserrat;
+margin:20px;
+
+
+}
+.heart{
+
+  color:springgreen;
+  margin:5px 0px;
+
+}
+.tags{
+  background-color: grey;
+  color: white;
+  padding: 5px;
+  margin: 0px;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+.subblogtext{
+
+  color: grey;
+}
+#footer{
+  margin-top:50px;
+  margin-bottom: 20px;
+
+  }
+#footer-text{
+   font-size: 19px;
+   font-family: Montserrat;
+   text-align: center;
+   color:grey;
+}
+.social{
+  margin-top: -10px;
+text-align: center;
+font-size: 50px;
+  font-family: social;
+}
+/*------post--------*/
+
+.post{
+
+  background-image: url("../background.jpg");
+  height: 450px;
+}
+.post-title{
+  font-family: Montserrat;
+  font-size:75px;
+  margin: 60px;
+  color:#d4d4d4;
+  margin-top:110px;
+
+
+}
+.post-author{
+display: block;
+  font-size:20px;
+  color:;
+}

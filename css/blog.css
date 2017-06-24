@@ -194,5 +194,11 @@ display: block;
 
   width: 95%
 }
+#logo{
+  text-align: center;
+}
+.menu-item{
+  margin:15px 3px;
 
+}
 }

@@ -112,7 +112,7 @@ color:grey;
 .blog{
   margin: 50px auto;
 
-  width: 26%;
+  width: 28%;
 
   background-color: #ececec;
 
@@ -178,4 +178,21 @@ font-size: 50px;
 display: block;
   font-size:20px;
   color:;
+}
+
+
+
+
+
+
+/*----------resposive-------*/
+@media screen and (max-width: 699px) and (min-width: 300px) {
+#blogposts{
+  display: block;
+}
+.blog{
+
+  width: 95%
+}
+
 }

@@ -18,15 +18,15 @@ background-attachment:  fixed;
 }
 
 #header{
-  background-color: #333;
-
+/*background-image: linear-gradient( 135deg, #333 0%, #000 100%);*/
+background-color:black;
 
 }
 #logo{
 
   font-family: head;
   font-size: 35px;
-  margin: 10px;
+  margin:8px 10px 12px 12px;
   color: white;
 
 
@@ -42,18 +42,19 @@ margin-top: 50px;
 
 
 }
-#contribute{
-  background-color: transparent;
-  border:1px solid ;
-  color:aqua;
+#contribute-box{
+
   cursor: pointer;
   padding: 3px 7px;;
   border-radius: 3px;
   border:1px solid ;
-}
-#contribute:hover{
-  background-color: transparent;
+  background-color: aqua;
   border:1px solid ;
+  color:white;
+}
+#contribute-box:hover{
+  background-color: transparent;
+
   color:aqua;
 
 
@@ -67,7 +68,7 @@ margin-top: 50px;
   font-size:  16px;
   font-weight: 700;
   margin: 12px;
-  margin-top: 25px;
+  margin-top: 24px;
   color:white;
   font-weight: 300;
 }
@@ -107,12 +108,13 @@ color:grey;
   display: block;
 }
 #blogposts{
-  display: flex;
+  margin:60px;
+  display:flex;
 }
 .blog{
-  margin: 50px auto;
+  margin:20px;
+  width: 30%;
 
-  width: 28%;
 
   background-color: #ececec;
 
@@ -142,21 +144,25 @@ margin:20px;
   color: grey;
 }
 #footer{
-  margin-top:50px;
-  margin-bottom: 20px;
+  padding: 60px 65px 25px 65px;
+
+  background-color:#dadada;
 
   }
 #footer-text{
    font-size: 19px;
    font-family: Montserrat;
-   text-align: center;
+  display: inline;
    color:grey;
 }
 .social{
-  margin-top: -10px;
-text-align: center;
+  margin-top: -20px;
+display: inline;;
+float: right;
 font-size: 50px;
   font-family: social;
+  color:grey;
+  font-weight: 100;
 }
 /*------post--------*/
 
@@ -178,27 +184,4 @@ font-size: 50px;
 display: block;
   font-size:20px;
   color:;
-}
-
-
-
-
-
-
-/*----------resposive-------*/
-@media screen and (max-width: 699px) and (min-width: 300px) {
-#blogposts{
-  display: block;
-}
-.blog{
-
-  width: 95%
-}
-#logo{
-  text-align: center;
-}
-.menu-item{
-  margin:15px 3px;
-
-}
 }
